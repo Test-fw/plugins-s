@@ -1,0 +1,5 @@
+<menu>
+    <VPN>
+      <WireGuard url="/ui/wireguard/general/index" order="150" />
+    </VPN>
+</menu>

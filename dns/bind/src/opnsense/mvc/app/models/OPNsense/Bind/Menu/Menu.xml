@@ -1,0 +1,12 @@
+<menu>
+  <Services>
+    <BIND VisibleName="DNS Server" order="90">
+      <Configuration url="/ui/bind/general/index"/>
+    </BIND>
+  </Services>
+    <ReportsandLogs>
+    <LogFiles>
+      <BINDLogFiles VisibleName="DNS Server Log Files" order="170" url="/ui/bind/logs"/>
+    </LogFiles>
+  </ReportsandLogs>
+</menu>

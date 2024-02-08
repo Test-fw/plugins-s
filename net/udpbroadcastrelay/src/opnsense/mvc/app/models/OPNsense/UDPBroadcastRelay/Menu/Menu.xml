@@ -1,0 +1,5 @@
+<menu>
+   <Services>
+      <UDPBroadcastRelay VisibleName="UDP Broadcast Relay" order="410" url="/ui/udpbroadcastrelay"/>
+   </Services>
+</menu>

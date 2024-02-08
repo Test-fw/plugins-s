@@ -1,0 +1,7 @@
+<menu>
+  <Services>
+    <TFTP order="390">
+      <General url="/ui/tftp/general/index"/>
+    </TFTP>
+  </Services>
+</menu>

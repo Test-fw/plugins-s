@@ -1,0 +1,19 @@
+<menu>
+    <Services>
+      <ZabbixAgent VisibleName="Zabbix Agent" order="430">
+          <Settings order="10" url="/ui/zabbixagent">
+              <Main url="/ui/zabbixagent#tab_zabbixagent-settings-main"/>
+              <Features url="/ui/zabbixagent#tab_zabbixagent-settings-features"/>
+              <Tuning url="/ui/zabbixagent#tab_zabbixagent-settings-tuning"/>
+          </Settings>
+          
+      </ZabbixAgent>
+    </Services>
+
+    <ReportsandLogs>
+    <LogFiles>
+      <ZabbixAgentLogFiles VisibleName="Zabbix Agent Log File" order="300" url="/ui/diagnostics/log/zabbix/zabbix_agentd"/>
+    </LogFiles>
+  </ReportsandLogs>
+</menu>
+  

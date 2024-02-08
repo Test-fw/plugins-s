@@ -1,0 +1,12 @@
+<menu>
+    <VPN>
+        <Stunnel order="110">
+            <Configuration url="/ui/stunnel/services/"/>
+        </Stunnel>
+    </VPN>
+    <ReportsandLogs>
+        <LogFiles>
+            <StunnelLogFile VisibleName="Stunnel Log File" url="/ui/diagnostics/log/core/stunnel"/>
+        </LogFiles>
+    </ReportsandLogs>
+</menu>

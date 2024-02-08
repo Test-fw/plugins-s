@@ -1,0 +1,8 @@
+<menu>
+    <Services>
+      <CrowdSec VisibleName="IDPS Secondary Engine" order="30">
+        <Settings order="1" url="/ui/crowdsec/general/index"/>
+        <Overview order="2" url="/ui/crowdsec/overview"/>
+      </CrowdSec>
+    </Services>
+</menu>

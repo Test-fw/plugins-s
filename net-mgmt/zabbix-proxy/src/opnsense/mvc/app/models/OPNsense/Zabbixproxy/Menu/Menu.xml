@@ -1,0 +1,13 @@
+<menu>
+  <Services>
+    <Zabbixproxy VisibleName="Zabbix Proxy" order="229">
+        <Settings order="10" url="/ui/zabbixproxy/general/index"/>
+        
+    </Zabbixproxy>
+  </Services>
+  <ReportsandLogs>
+    <LogFiles>
+      <ZabbixproxyLogFiles VisibleName="Zabbix Proxy Log File" order="310" url="/ui/diagnostics/log/zabbix/zabbix_proxy"/>
+    </LogFiles>
+  </ReportsandLogs>
+</menu>

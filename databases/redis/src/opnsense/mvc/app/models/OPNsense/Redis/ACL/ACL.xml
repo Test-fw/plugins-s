@@ -1,0 +1,9 @@
+<acl>
+  <page-Redis>
+    <name>Email Security (Redis)</name>
+    <patterns>
+      <pattern>ui/redis/*</pattern>
+      <pattern>api/redis/*</pattern>
+    </patterns>
+  </page-Redis>
+</acl>

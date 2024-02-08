@@ -1,0 +1,14 @@
+<menu>
+    <Services>
+        <DNSCrypt-Proxy VisibleName="DNS (DNSCrypt-Proxy)" order="115">
+            <Configuration url="/ui/dnscryptproxy/general/index" order="10"/>
+        </DNSCrypt-Proxy>
+    </Services>
+    <ReportsandLogs>
+    <LogFiles>
+        <GeneralLog VisibleName="DNSCrypt-Proxy General Log File" order="230" url="/ui/diagnostics/log/dnscryptproxy/dnscrypt-proxy"/>
+        <QueryLog VisibleName="DNSCrypt-Proxt Queries Log File" order="240"  url="/ui/diagnostics/log/dnscryptproxy/query"/>
+        <NXLog VisibleName="DNSCrypt-Proxt NX Log File" order="250" url="/ui/diagnostics/log/dnscryptproxy/nx"/>
+    </LogFiles>
+  </ReportsandLogs>
+</menu>

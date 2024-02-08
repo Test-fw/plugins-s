@@ -1,0 +1,5 @@
+<menu>
+    <Services>
+        <Redis Visiblename="Email Security (Redis)" url="/ui/redis" order="70" />
+    </Services>
+</menu>

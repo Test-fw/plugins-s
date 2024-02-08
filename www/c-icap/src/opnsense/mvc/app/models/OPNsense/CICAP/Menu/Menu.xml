@@ -1,0 +1,14 @@
+<menu>
+  <Services>
+    <C_ICAP VisibleName="C-ICAP" order="191">
+        <Configuration order="10" url="/ui/cicap/general/index"/>
+        
+    </C_ICAP>
+  </Services>
+
+  <ReportsandLogs>
+    <LogFiles>
+      <C-ICAPLogFiles VisibleName="C-ICAP Log File" order="10" url="/ui/diagnostics/log/cicap/server"/>
+    </LogFiles>
+  </ReportsandLogs>
+</menu>

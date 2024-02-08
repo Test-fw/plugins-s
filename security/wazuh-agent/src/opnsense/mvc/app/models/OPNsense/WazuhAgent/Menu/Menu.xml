@@ -1,0 +1,13 @@
+<menu>
+    <Services>
+        <WazuhAgent VisibleName="XDR" order="140">
+            <Settings order="10" url="/ui/wazuhagent/"/>
+        </WazuhAgent>
+    </Services>
+    <ReportsandLogs>
+        <LogFiles>
+            <Ossec VisibleName="XDR Logfile / ossec" order="20" url="/ui/diagnostics/log/wazuhagent/ossec" />
+            <ActiveResponses VisibleName="XDR Logfile / active-responses" order="30" url="/ui/diagnostics/log/wazuhagent/activeresponses" />
+        </LogFiles>
+    </ReportsandLogs>
+</menu>

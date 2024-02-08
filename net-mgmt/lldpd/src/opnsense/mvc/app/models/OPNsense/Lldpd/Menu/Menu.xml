@@ -1,0 +1,5 @@
+<menu>
+  <Services>
+    <LLDPd order="250" url="/ui/lldpd/general/index" />
+  </Services>
+</menu>

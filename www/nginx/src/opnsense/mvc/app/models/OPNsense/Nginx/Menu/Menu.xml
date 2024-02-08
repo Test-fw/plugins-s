@@ -1,0 +1,21 @@
+<menu>
+  <Services>
+    <Nginx VisibleName="WAF" order="80">
+      <Configuration url="/ui/nginx" order="10"/>
+      <Banned url="/ui/nginx/index/ban" order="20"/>
+      <TLSFingerprints VisibleName="TLS Fingerprints" url="/ui/nginx/index/tls_handshakes" order="30"/>
+      <VTS VisibleName="Traffic Statistic" url="/ui/nginx/index/vts" order="90"/>
+      
+    </Nginx>
+  </Services>
+
+  <ReportsandLogs>
+    <LogFiles>
+      <NginxLogFiles VisibleName="WAF Log File" order="140" url="/ui/diagnostics/log/core/nginx"/>
+      <HTTPAccessLogs VisibleName="WAF Logs / HTTP Access" url="/ui/nginx/logs/accesses" order="112"/>
+      <HTTPErrorLogs VisibleName="WAF Logs / HTTP Error" url="/ui/nginx/logs/errors" order="142"/>
+      <StreamAccessLogs VisibleName="WAF Logs / Stream Access" url="/ui/nginx/logs/stream_accesses" order="143"/>
+      <StreamErrorLogs VisibleName="WAF Logs / Stream Error" url="/ui/nginx/logs/stream_errors" order="144"/>
+    </LogFiles>
+  </ReportsandLogs>
+</menu>

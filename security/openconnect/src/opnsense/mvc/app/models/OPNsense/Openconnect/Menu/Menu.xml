@@ -1,0 +1,5 @@
+<menu>
+    <VPN>
+      <OpenConnect url="/ui/openconnect/general/index" order="15" />
+    </VPN>
+</menu>

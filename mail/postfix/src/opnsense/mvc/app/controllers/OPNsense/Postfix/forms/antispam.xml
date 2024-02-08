@@ -1,0 +1,14 @@
+<form>
+    <field>
+        <id>antispam.enable_rspamd</id>
+        <label>Enable Email Security Integration</label>
+        <type>checkbox</type>
+        <help>This will allow Antispam to connect to Email Security via milter protocol.</help>
+    </field>
+    <field>
+        <id>antispam.default_action</id>
+        <label>Milter Default Action</label>
+        <type>dropdown</type>
+        <help>What Antispam will do when Email Security becomes temporarily unavailable.</help>
+    </field>
+</form>

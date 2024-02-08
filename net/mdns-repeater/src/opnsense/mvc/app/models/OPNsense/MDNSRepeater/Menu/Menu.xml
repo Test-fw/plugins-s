@@ -1,0 +1,5 @@
+<menu>
+   <Services>
+      <MDNSRepeater VisibleName="mDNS Repeater" url="/ui/mdnsrepeater" order="260" />
+   </Services>
+</menu>

@@ -1,0 +1,5 @@
+<menu>
+    <Services>
+        <Ntopng order="320" url="/ui/ntopng/general/index" />
+    </Services>
+</menu>

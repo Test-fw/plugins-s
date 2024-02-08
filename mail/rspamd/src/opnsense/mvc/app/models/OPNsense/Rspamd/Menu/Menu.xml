@@ -1,0 +1,5 @@
+<menu>
+  <Services>
+    <Rspamd Visiblename="Email Security " url="/ui/rspamd" order="60" />
+  </Services>
+</menu>

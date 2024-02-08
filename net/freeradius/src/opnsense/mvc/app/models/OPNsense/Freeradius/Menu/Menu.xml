@@ -1,0 +1,24 @@
+<menu>
+  <Services>
+    <FreeRADIUS VisibleName="AAA Radius" order="141">
+      <General url="/ui/freeradius/general/index" order="10"/>
+      <Users url="/ui/freeradius/user/index" order="20"/>
+      <Clients url="/ui/freeradius/client/index" order="30"/>
+      <DHCP url="/ui/freeradius/dhcp/index" order="35"/>
+      <Lease VisibleName="DHCP Leases" url="/ui/freeradius/lease/index" order="36"/>
+      <EAP url="/ui/freeradius/eap/index" order="40"/>
+      <LDAP url="/ui/freeradius/ldap/index" order="50"/>
+      <Proxy url="/ui/freeradius/proxy/index" order="60">
+        <Homeservers url="/ui/freeradius#homeservers"/>
+        <Homeserverpools url="/ui/freeradius#homeserverpools"/>
+        <Realms url="/ui/freeradius#realms"/>
+      </Proxy>
+    </FreeRADIUS>
+  </Services>
+
+  <ReportsandLogs>
+    <LogFiles>
+       <FreeRADIUSLogFiles VisibleName="AAA Radius Log File" order="270" url="/ui/diagnostics/log/core/radius"/>
+    </LogFiles>
+  </ReportsandLogs>
+</menu>

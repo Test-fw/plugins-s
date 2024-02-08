@@ -1,0 +1,48 @@
+<form>
+    <field>
+        <label>Service</label>
+        <type>header</type>
+    </field>
+    <field>
+        <id>haproxy.general.enabled</id>
+        <label>Enable Primary Server Load Balancer</label>
+        <type>checkbox</type>
+        <help>Enable or disable the Primary Server Load Balancer service.</help>
+    </field>
+    <field>
+        <id>haproxy.general.gracefulStop</id>
+        <label>Graceful stop</label>
+        <type>checkbox</type>
+        <help><![CDATA[Enable Primary Server Load Balancer's graceful stop mode. In this mode Primary Server Load Balancer will continue to process existing connections until they close. Note that this may severely slow down Primary Server Load Balancer's shutdown, depending on the configured timeout values. If graceful stop mode is not enabled, Primary Server Load Balancer will use the hard stop mode where it immediately quits and all established connections are closed. Hard stop mode is recommended.]]></help>
+    </field>
+    <field>
+        <id>haproxy.general.hardStopAfter</id>
+        <label>Graceful stop timeout</label>
+        <type>text</type>
+        <help><![CDATA[Set the maximum time allowed to perform a clean graceful stop. Primary Server Load Balancer will terminate all open connections when the timeout is reached. This may be used to ensure that the instance will quit even if connections remain opened. Defaults to milliseconds. Optionally the unit may be specified as either "d", "h", "m", "s", "ms" or "us".]]></help>
+    </field>
+    <field>
+        <id>haproxy.general.closeSpreadTime</id>
+        <label>Gradual connection close time</label>
+        <type>text</type>
+        <help><![CDATA[Specifies a time window during which connection closing will be spread during a soft-stop operation. Idle connections will all be closed at once if this option is not set, which may cause reconnecting clients to rush against the process. For best results, it should set lower than the "Graceful stop timout" option. Defaults to milliseconds. Optionally the unit may be specified as either "d", "h", "m", "s", "ms" or "us".]]></help>
+    </field>
+    <field>
+        <id>haproxy.general.seamlessReload</id>
+        <label>Seamless reload</label>
+        <type>checkbox</type>
+        <help><![CDATA[Primary Server Load Balancer will handle service restarts in a way that no connections are dropped. This is the best restart mode, because it has no impact on user experience. That being said, there might be edge cases where seamless reloads lead to unexpected behaviour.]]></help>
+    </field>
+    <field>
+        <id>haproxy.general.storeOcsp</id>
+        <label>Store OCSP responses</label>
+        <type>checkbox</type>
+        <help><![CDATA[Retrieve OCSP data everytime when starting or restarting Primary Server Load Balancer. For every certificate, the OCSP response will be fetched and stored in filesystem, and automatically picked-up by Primary Server Load Balancer on startup. However, depending on the number of certificates and other circumstances, this may noticeably increase the time required to start/restart the Primary Server Load Balancer service. Note that this only updates the OCSP responses once during start/restart, you need to setup a cron job to periodically update this data too.]]></help>
+    </field>
+    <field>
+        <id>haproxy.general.showIntro</id>
+        <label>Show introduction pages</label>
+        <type>checkbox</type>
+        <help><![CDATA[Uncheck to hide all additional introduction pages. Requires a manual page reload for the change to take effect.]]></help>
+    </field>
+</form>

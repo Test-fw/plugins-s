@@ -1,0 +1,15 @@
+<menu>
+   <Services>
+      <Relayd VisibleName="Secondary Server Load Balancer" order="130">
+         <Settings url="/ui/relayd"/>
+         <Status url="/ui/relayd/status"/>
+         
+      </Relayd>
+   </Services>
+
+   <ReportsandLogs>
+    <LogFiles>
+      <RelaydLogFiles VisibleName="Secondary Server Load Balancer Log File" order="190" url="/ui/diagnostics/log/core/relayd"/>
+    </LogFiles>
+  </ReportsandLogs>
+</menu>

@@ -1,0 +1,25 @@
+<menu>
+  <Routing cssClass="fa fa-map-signs" order="30">
+    <General VisibleName="General" url="/ui/quagga/general/index" order="1"/>
+    <RIP VisibleName="RIP"  url="/ui/quagga/rip/index" order="10" />
+    <OSPF VisibleName="OSPF" url="/ui/quagga/ospf/index" order="20" />
+    <OSPFv3 VisibleName="OSPFv3"  url="/ui/quagga/ospf6/index" order="25" />
+    <!--<ISIS VisibleName="IS-IS" cssClass="fa fa-bolt fa-fw" url="/ui/quagga/isis/index" order="30" />-->
+    <BGP VisibleName="BGP"  url="/ui/quagga/bgp/index" order="40" />
+    <BFD VisibleName="BFD"  url="/ui/quagga/bfd/index" order="50" />
+    <Diagnostics VisibleName="Diagnostics"  order="50">
+      <General VisibleName="General" url="/ui/quagga/diagnostics/general" order="1" />
+      <OSPF VisibleName="OSPF" url="/ui/quagga/diagnostics/ospf" order="20" />
+      <OSPFv3 VisibleName="OSPFv3" url="/ui/quagga/diagnostics/ospfv3" order="25" />
+      <BGP VisibleName="BGP" url="/ui/quagga/diagnostics/bgp" order="40" />
+      <BFD VisibleName="BFD" url="/ui/quagga/diagnostics/bfd" order="50" />
+      
+    </Diagnostics>
+  </Routing>
+
+  <ReportsandLogs>
+    <LogFiles>
+      <LOG VisibleName="Routing Log File" url="/ui/diagnostics/log/routing/frr" order="" />
+    </LogFiles>
+  </ReportsandLogs>
+</menu>

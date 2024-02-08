@@ -1,0 +1,5 @@
+<menu>
+   <Services>
+      <FtpProxy VisibleName="FTP Proxy" order="226" url="/ui/ftpproxy"/>
+   </Services>
+</menu>

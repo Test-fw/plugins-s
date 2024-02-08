@@ -1,0 +1,14 @@
+<menu>
+    <Services>
+        <DynamicDNS VisibleName="DNS (Dynamic DNS)" order="100">
+            <Settings order="10" url="/ui/dyndns/"/>
+            
+        </DynamicDNS>
+    </Services>
+
+    <ReportsandLogs>
+    <LogFiles>
+      <DynDNSLogFiles order="150" VisibleName="Dynamic DNS Log File" url="/ui/diagnostics/log/core/ddclient"/>
+    </LogFiles>
+  </ReportsandLogs>
+</menu>

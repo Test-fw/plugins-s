@@ -1,0 +1,13 @@
+<menu>
+    <Services>
+        <ClamAV Visiblename="Antivirus" order="0">
+            <Configuration order="10" url="/ui/clamav/general/index"/>
+            
+        </ClamAV>
+    </Services>
+    <ReportsandLogs>
+        <LogFiles>
+            <ClamAVLogFiles VisibleName="Antivirus Log File" order="120" url="/ui/diagnostics/log/core/clamd"/>
+        </LogFiles>
+  </ReportsandLogs>
+</menu>

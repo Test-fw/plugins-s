@@ -1,0 +1,7 @@
+<menu>
+  <Services>
+    <Netdata order="310">
+      <General url="/ui/netdata/general/index"/>
+    </Netdata>
+  </Services>
+</menu>

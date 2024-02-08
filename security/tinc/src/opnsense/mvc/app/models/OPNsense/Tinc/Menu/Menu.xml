@@ -1,0 +1,13 @@
+<menu>
+    <VPN>
+      <Tinc VisibleName="Tinc">
+        <Configuration order="10" url="/ui/tinc"/>
+        
+      </Tinc>
+    </VPN>
+    <ReportsandLogs>
+    <LogFiles>
+      <TincLogFile VisibleName="Tinc Log File" url="/ui/diagnostics/log/core/tinc"/>
+    </LogFiles>
+  </ReportsandLogs>
+</menu>

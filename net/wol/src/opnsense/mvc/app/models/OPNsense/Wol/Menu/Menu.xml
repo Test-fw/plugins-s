@@ -1,0 +1,5 @@
+<menu>
+    <Services>
+        <WoL VisibleName="Wake on LAN" url="/ui/wol" order="420" />
+    </Services>
+</menu>
